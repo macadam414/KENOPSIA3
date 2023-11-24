@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="5" failures="0" errors="0" time="2.073">
+  <testsuite name="API Books tests" errors="0" failures="0" skipped="0" timestamp="2023-11-21T16:51:46" time="1.993" tests="5">
+    <testcase classname="API Books tests Should return status code 200 for a book id and match the schema" name="API Books tests Should return status code 200 for a book id and match the schema" time="0.324">
+    </testcase>
+    <testcase classname="API Books tests Should return status code 200 for just a book(?)" name="API Books tests Should return status code 200 for just a book(?)" time="0.351">
+    </testcase>
+    <testcase classname="API Books tests Should create a new book with status code 200" name="API Books tests Should create a new book with status code 200" time="0.175">
+    </testcase>
+    <testcase classname="API Books tests should update a book with status code 200" name="API Books tests should update a book with status code 200" time="0.177">
+    </testcase>
+    <testcase classname="API Books tests Should delete a book with a status code 200" name="API Books tests Should delete a book with a status code 200" time="0.16">
+    </testcase>
+  </testsuite>
+</testsuites>
