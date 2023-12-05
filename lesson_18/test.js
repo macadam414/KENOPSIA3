@@ -45,7 +45,6 @@ const { Builder, By, until, Key } = require('selenium-webdriver');
         const searchField = await driver.findElement(By.css('div.Xb9hP input'));
         await searchField.sendKeys('driver', Key.ENTER);
 
-        // Ожидаем загрузки текста URL
         const urlToCheck = await driver.wait(
             until.elementLocated(By.css('div.yDWqEe')),
             10000
