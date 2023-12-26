@@ -22,7 +22,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        // ToDo: define location for spec files here
+        "./e2e/**/*.spec.js"
     ],
     // Patterns to exclude.
     exclude: [

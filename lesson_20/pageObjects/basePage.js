@@ -1,5 +1,8 @@
 class BasePage {
+    async navigate(url) {
+        await browser.url(url);
+    }
 
 };
 
-export { BasePage };
+module.exports = { BasePage };
