@@ -15,3 +15,4 @@ describe('Shop cart on 5 element', () => {
       homePage.isCartNotEmpty();
     });
 });
+

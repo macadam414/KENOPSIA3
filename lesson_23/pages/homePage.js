@@ -57,11 +57,19 @@ class HomePage extends BasePage {
     }
 
     get sortButton() {
-        return cy.get('.filter-line > .inp-dropdown > .btn', { timeout: 10000 }).should('be.visible')
+        return cy.get('.filter-line > .inp-dropdown > .btn', { timeout: 10000 }).should('be.visible');
     }
 
     get sortFromLowToHigh() {
-        return  cy.get('.inp-dropdown__list > :nth-child(2) > .inp-box > .inp-box__label > .inp-box__view', { timeout: 10000 })
+        return  cy.get('.inp-dropdown__list > :nth-child(2) > .inp-box > .inp-box__label > .inp-box__view', { timeout: 10000 });
+    }
+
+    get phoneModel() {
+        return cy.get(':nth-child(10) > .item-box');
+    }
+
+    get toFavoriteButton() {
+        return cy.get(':nth-child(1) > .card-product-full > :nth-child(3) > .c-actions > [title="В избранное"]');
     }
 
 
@@ -143,7 +151,12 @@ class HomePage extends BasePage {
         this.sortFromLowToHigh.click();
     }
 
+    addProductToFavorite() {
+        this.toFavoriteButton.click();
+    }
+
 
 }
 
 module.exports = new HomePage();
+

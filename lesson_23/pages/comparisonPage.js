@@ -37,3 +37,4 @@ class ComparisonPage extends BasePage {
 }
 
 module.exports = new ComparisonPage();
+

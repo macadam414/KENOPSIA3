@@ -18,3 +18,4 @@ class SearchComponent {
 }
 
 module.exports = new SearchComponent();
+
